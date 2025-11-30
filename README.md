@@ -1,9 +1,9 @@
-##Employee Attendance System
+## Employee Attendance System
 
 A full-stack attendance tracking system with two user roles: Employee and Manager.
 Employees can mark their attendance, and Managers can view and manage team attendance.
 
-##Tech Stack
+## Tech Stack
 
 Frontend: React + Redux Toolkit or Zustand
 
@@ -11,111 +11,111 @@ Backend: Node.js + Express
 
 Database: MongoDB or PostgreSQL
 
-Features
+## Features
 Employee
 
-Register and Login
+-> Register and Login
 
-Check In and Check Out
+-> Check In and Check Out
 
-View attendance history (table and calendar)
+-> View attendance history (table and calendar)
 
-Monthly summary (Present, Absent, Late, Half-Day)
+-> Monthly summary (Present, Absent, Late, Half-Day)
 
-Dashboard with daily and monthly stats
+-> Dashboard with daily and monthly stats
 
-Profile management
+-> Profile management
 
-Manager
+## Manager
 
-Login
+-> Login
 
-View all employee attendance
+-> View all employee attendance
 
-Filter by date, employee, or status
+-> Filter by date, employee, or status
 
-Daily team attendance overview
+-> Daily team attendance overview
 
-Late arrivals list
+-> Late arrivals list
 
-Absent employees list
+-> Absent employees list
 
-Weekly attendance trend chart
+-> Weekly attendance trend chart
 
-Department-wise attendance summary
+-> Department-wise attendance summary
 
-Export attendance reports as CSV
+-> Export attendance reports as CSV
 
-Pages
-Employee Pages
+## Pages
+# Employee Pages
 
-Login / Register
+-> Login / Register
 
-Dashboard
+-> Dashboard
 
-Mark Attendance
+-> Mark Attendance
 
-Attendance History
+-> Attendance History
 
-Profile
+-> rofile
 
-Manager Pages
+# Manager Pages
 
-Login
+-> Login
 
-Dashboard
+-> Dashboard
 
-All Employees Attendance
+## All Employees Attendance
 
-Team Calendar View
+-> Team Calendar View
 
-Reports
+-> Reports
 
-Database Schema
-Users
+## Database Schema
+-> Users
 
-id
+-> id
 
-name
+-> name
 
-email
+-> email
 
-password
+-> password
 
-role (employee or manager)
+-> role (employee or manager)
 
-employeeId
+-> employeeId
 
-department
+-> department
 
-createdAt
+-> createdAt
 
-Attendance
+## Attendance
 
-id
+-> id
 
-userId
+-> userId
 
-date
+->date
 
-checkInTime
+-> checkInTime
 
-checkOutTime
+-> checkOutTime
 
-status (present, absent, late, half-day)
+-> status (present, absent, late, half-day)
 
-totalHours
+-> totalHours
 
-createdAt
+-> createdAt
 
-API Endpoints
-Auth
+## API Endpoints
+#Auth
 
 POST /api/auth/register
 POST /api/auth/login
 GET /api/auth/me
 
-Attendance (Employee)
+# Attendance (Employee)
 
 POST /api/attendance/checkin
 POST /api/attendance/checkout
@@ -123,7 +123,7 @@ GET /api/attendance/my-history
 GET /api/attendance/my-summary
 GET /api/attendance/today
 
-Attendance (Manager)
+# Attendance (Manager)
 
 GET /api/attendance/all
 GET /api/attendance/employee/:id
@@ -131,32 +131,32 @@ GET /api/attendance/summary
 GET /api/attendance/export
 GET /api/attendance/today-status
 
-Dashboards
+# Dashboards
 
 GET /api/dashboard/employee
 GET /api/dashboard/manager
 
-Setup Instructions
-1. Clone the repository
+## Setup Instructions
+# 1. Clone the repository
 
 git clone https://github.com/Gowtham867/Attendence_platform.git
 
 cd Attendence_platform
 
-2. Install dependencies
+## 2. Install dependencies
 
-Backend:
+# Backend:
 
 cd backend
 npm install
 
 
-Frontend:
+# Frontend:
 
 cd frontend
 npm install
 
-Environment Variables
+## Environment Variables
 
 Create a .env file in the backend folder:
 
@@ -164,27 +164,28 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-Run the Project
+## Run the Project
 
-Start backend:
+# Start backend:
 
 cd backend
 npm start
 
 
-Start frontend:
+# Start frontend:
 
 cd frontend
 npm run dev
 
-Deliverables
+## Deliverables
 
-Complete GitHub repository
+-> Complete GitHub repository
 
-README with setup steps
+-> README with setup steps
 
-.env.example file
+-> .env.example file
 
-Working app
+-> Working app
 
-Seed data for testing
+-> Seed data for testing
+
